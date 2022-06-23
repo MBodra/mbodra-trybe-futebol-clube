@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/app-toot-name/static/css/main.91f4a030.chunk.css",
+    "main.js": "/app-toot-name/static/js/main.6d922e29.chunk.js",
+    "main.js.map": "/app-toot-name/static/js/main.6d922e29.chunk.js.map",
+    "runtime-main.js": "/app-toot-name/static/js/runtime-main.abf952de.js",
+    "runtime-main.js.map": "/app-toot-name/static/js/runtime-main.abf952de.js.map",
+    "static/js/2.8aaf3339.chunk.js": "/app-toot-name/static/js/2.8aaf3339.chunk.js",
+    "static/js/2.8aaf3339.chunk.js.map": "/app-toot-name/static/js/2.8aaf3339.chunk.js.map",
+    "index.html": "/app-toot-name/index.html",
+    "static/css/main.91f4a030.chunk.css.map": "/app-toot-name/static/css/main.91f4a030.chunk.css.map",
+    "static/js/2.8aaf3339.chunk.js.LICENSE.txt": "/app-toot-name/static/js/2.8aaf3339.chunk.js.LICENSE.txt",
+    "static/media/negative_logo.29805c2a.png": "/app-toot-name/static/media/negative_logo.29805c2a.png",
+    "static/media/positive_logo.4a6f1733.png": "/app-toot-name/static/media/positive_logo.4a6f1733.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abf952de.js",
+    "static/js/2.8aaf3339.chunk.js",
+    "static/css/main.91f4a030.chunk.css",
+    "static/js/main.6d922e29.chunk.js"
+  ]
+}

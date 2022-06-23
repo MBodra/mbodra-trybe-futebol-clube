@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mbodra-trybe-futebol-clube/static/css/main.91f4a030.chunk.css",
-    "main.js": "/mbodra-trybe-futebol-clube/static/js/main.0e00f14e.chunk.js",
-    "main.js.map": "/mbodra-trybe-futebol-clube/static/js/main.0e00f14e.chunk.js.map",
+    "main.js": "/mbodra-trybe-futebol-clube/static/js/main.585b12ee.chunk.js",
+    "main.js.map": "/mbodra-trybe-futebol-clube/static/js/main.585b12ee.chunk.js.map",
     "runtime-main.js": "/mbodra-trybe-futebol-clube/static/js/runtime-main.177d957c.js",
     "runtime-main.js.map": "/mbodra-trybe-futebol-clube/static/js/runtime-main.177d957c.js.map",
     "static/js/2.8aaf3339.chunk.js": "/mbodra-trybe-futebol-clube/static/js/2.8aaf3339.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.177d957c.js",
     "static/js/2.8aaf3339.chunk.js",
     "static/css/main.91f4a030.chunk.css",
-    "static/js/main.0e00f14e.chunk.js"
+    "static/js/main.585b12ee.chunk.js"
   ]
 }

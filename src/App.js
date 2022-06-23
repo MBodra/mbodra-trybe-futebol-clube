@@ -13,7 +13,7 @@ function App() {
       <Route path="mbodra-trybe-futebol-clube/leaderboard" element={ <Leaderboard /> } />
       <Route path="mbodra-trybe-futebol-clube/matches" element={ <Games /> } />
       <Route path="mbodra-trybe-futebol-clube/login" element={ <Login /> } />
-      <Route exact path="mbodra-trybe-futebol-clube/" element={ <Navigate to="/mbodra-trybe-futebol-clube/leaderboard" /> } />
+      <Route exact path="mbodra-trybe-futebol-clube/" element={ <Navigate to="mbodra-trybe-futebol-clube/leaderboard" /> } />
     </Routes>
   );
 }

@@ -49,29 +49,40 @@
 
 .alert {
   padding: 20px;
-  background-color: rgba(243, 33, 33, 0.8); /* Red */
+  background-color: rgba(12, 92, 68, 0.8); 
   color: white;
   font-family: Verdana , Tahoma , sans-serif;
   position: fixed;
   top: 0;
   width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+#alert-filler {
+  width: 34px;
+}
+
+#alert-text {
   text-align: center;
+  text-transform: uppercase;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .closebtn {
-  margin-left: 15px;
-  padding-right: 20px;
-  color: white;
+  color: rgb(190, 0, 0);
   font-weight: bold;
   float: right;
-  font-size: 22px;
+  font-size: 38px;
   line-height: 20px;
   cursor: pointer;
   transition: 0.1s;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .closebtn:hover {
-  color: black;
+  color: rgb(220, 0, 0);
 }
 
 .alert-link {
@@ -79,13 +90,13 @@
 }
 
 .alert-link:visited {
-  margin: 0;
+  color: #13b7b9;
 }
 
 .alert-link:link {
-  color: black;
+  color: #13b7b9;
 }
 
 .alert-link:hover {
-  color: rgb(27, 27, 141)
+  color: #32cdcf;
 }

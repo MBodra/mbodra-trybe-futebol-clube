@@ -22,7 +22,10 @@ const Leaderboard = () => {
     <>
       <div className="alert">
         <span className="closebtn" onClick={ ({ target }) => target.parentElement.style.display = 'none' }>&times;</span>
-          Frontend desenvolvido por <a href="https://www.betrybe.com/" className='alert-link'>Trybe</a>. Backend desenvolvido por <a href="https://www.linkedin.com/in/matheus-bodra/" className='alert-link'>Matheus Bodra</a>. Para mais informações leia o <a href="https://github.com/MBodra/mbodra-trybe-futebol-clube/tree/master#projeto-trybe-futebol-clube-%EF%B8%8F" className='alert-link'>README</a> do projeto.
+        <p id="alert-text">
+          Frontend: <a href="https://www.betrybe.com/" className='alert-link'>Trybe</a>. Backend: <a href="https://www.linkedin.com/in/matheus-bodra/" className='alert-link'>Matheus Bodra</a>. Mais informações: <a href="https://github.com/MBodra/mbodra-trybe-futebol-clube/tree/master#projeto-trybe-futebol-clube-%EF%B8%8F" className='alert-link'>README</a>.
+        </p>
+        <div id="alert-filler"></div>
       </div>
       <Header
         page="CLASSIFICAÇÃO"

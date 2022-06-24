@@ -11,8 +11,8 @@ Projeto realizado por [Matheus Bodra](https://www.linkedin.com/in/matheus-bodra/
     - [Sem fazer login ou logado como pessoa usuária](#Sem-fazer-login-ou-logado-como-pessoa-usuária)
     - [Fazendo login como pessoa administradora](#Fazendo-login-como-pessoa-administradora)
 - [O que foi desenvolvido](#O-que-foi-desenvolvido)
-    - [Pela Trybe](#Pela-Trybe)
     - [Por mim](#Por-mim)
+    - [Pela Trybe](#Pela-Trybe)
 - [Tecnologias](#tecnologias)
 - [Como acessar a aplicação](#Como-acessar-a-aplicação)
 
@@ -63,6 +63,15 @@ Um site que simula uma tabela de classificação de um campeonato de futebol.
 
 ## O que foi desenvolvido
 
+- ### Por mim
+    - Configuração do banco de dados a partir de ORM;
+    - Arquitetura MSC;
+    - Dockerfile na raíz das pastas 'backend' e 'frontend';
+    - API REST com TypeScript;
+    - Pequenas adaptações no Frontend;
+    - Deploy do Backend no Heroku;
+    - Deploy do Frontend no GitHub Pages;
+
 - ### Pela Trybe
     - **Todos os arquivos na pasta raíz do repositório, com exceção ao 'README';**
     - **Arquivo 'docker-compose' na pasta 'app';**  *(Apesar disso, é importante ressaltar que, com exceção aos 'healthchecks' e ao 'cap_add', compreendo e posso executar a confecção de um arquivo similar);*
@@ -70,17 +79,12 @@ Um site que simula uma tabela de classificação de um campeonato de futebol.
     - **Todos os arquivos na raíz da pasta 'app/backend', com exceção ao arquivo 'Dockerfile'** e às dependências instaladas por mim no projeto, que alteram o os arquivos 'package-lock.json', 'package.json'. As dependências instaladas por mim estão descritas no arquivo 'packages.npm';
     - [Modelagem do banco de dados](assets/er-diagram.png) *(Implementação de minha autoria)*;
 
-- ### Por mim
-    - Configuração do banco de dados a partir de ORM;
-    - Arquitetura MSC;
-    - Dockerfile na raíz das pastas 'backend' e 'frontend';
-    - API REST com TypeScript;
-
 ---
 
 ## Tecnologias
 
 - Docker;
+- Heroku;
 - MySQL;
 - Sequelize ORM;
 - NodeJS;

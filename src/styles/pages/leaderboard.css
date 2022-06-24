@@ -46,3 +46,36 @@
 .classification-handlers form button:hover {
   background: #002799;
 }
+
+.alert {
+  padding: 20px;
+  background-color: #ff9800; /* Red */
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.alert-link:link {
+  color: white
+}
+
+.alert-link:visited {
+  color: rgb(0, 0, 0);
+}
+
+.alert-link:hover {
+  color:rgb(175, 120, 159)
+}

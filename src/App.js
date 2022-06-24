@@ -9,11 +9,11 @@ import './styles/app.css';
 function App() {
   return (
     <Routes>
-      <Route path="mbodra-trybe-futebol-clube/matches/settings" element={ <MatchSettings /> } />
-      <Route path="mbodra-trybe-futebol-clube/leaderboard" element={ <Leaderboard /> } />
-      <Route path="mbodra-trybe-futebol-clube/matches" element={ <Games /> } />
-      <Route path="mbodra-trybe-futebol-clube/login" element={ <Login /> } />
-      <Route exact path="mbodra-trybe-futebol-clube/" element={ <Navigate to="leaderboard/" /> } />
+      <Route path="/matches/settings" element={ <MatchSettings /> } />
+      <Route path="/leaderboard" element={ <Leaderboard /> } />
+      <Route path="/matches" element={ <Games /> } />
+      <Route path="/login" element={ <Login /> } />
+      <Route exact path="/" element={ <Navigate to="leaderboard/" /> } />
     </Routes>
   );
 }

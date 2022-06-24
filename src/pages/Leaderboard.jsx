@@ -9,6 +9,7 @@ import '../styles/pages/leaderboard.css';
 const Leaderboard = () => {
   const [logged, setLogin] = useState(false);
   const [currentFilter, setCurrentFilter] = useState('Classificação Geral');
+  // const [alert, setAlert] = useState(true)
 
   useEffect(() => {
     const user = localStorage.getItem('user');
@@ -20,6 +21,10 @@ const Leaderboard = () => {
 
   return (
     <>
+      <div className="alert">
+        <span className="closebtn" onClick={ ({ target }) => target.parentElement.style.display = 'none' }>&times;</span>
+          Frontend desenvolvido por <a href="https://www.betrybe.com/" className='alert-link'>Trybe</a>. Backend desenvolvido por <a href="https://www.linkedin.com/in/matheus-bodra/" className='alert-link'>Matheus Bodra</a>. Para mais informações <a href="https://github.com/MBodra/mbodra-trybe-futebol-clube/tree/master#projeto-trybe-futebol-clube-%EF%B8%8F" className='alert-link'>leia o README do projeto</a>.
+      </div>
       <Header
         page="CLASSIFICAÇÃO"
         FirstNavigationLink={ MatchesBtn }

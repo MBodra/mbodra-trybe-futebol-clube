@@ -49,12 +49,18 @@
 
 .alert {
   padding: 20px;
-  background-color: #ff9800; /* Red */
+  background-color: rgba(243, 33, 33, 0.8); /* Red */
   color: white;
+  font-family: Verdana , Tahoma , sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  text-align: center;
 }
 
 .closebtn {
   margin-left: 15px;
+  padding-right: 20px;
   color: white;
   font-weight: bold;
   float: right;
@@ -68,14 +74,18 @@
   color: black;
 }
 
-.alert-link:link {
-  color: white
+.alert-link {
+  text-transform: uppercase;
 }
 
 .alert-link:visited {
-  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.alert-link:link {
+  color: black;
 }
 
 .alert-link:hover {
-  color:rgb(175, 120, 159)
+  color: rgb(27, 27, 141)
 }
